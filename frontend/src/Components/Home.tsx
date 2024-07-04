@@ -1,9 +1,13 @@
 // import TransparentText from "./TransparentText"
 
+import Hero from "./Hero"
+import Nav from "./Nav"
+
 const Home = () => {
   return (
     <div className="w-screen h-screen">
-      {/* <TransparentText/> */}
+      <Nav/>
+      <Hero/>
     </div>
   )
 }
